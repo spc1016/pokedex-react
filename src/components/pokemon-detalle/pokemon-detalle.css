@@ -1,0 +1,170 @@
+.pokemon-detalle-card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    padding: 24px;
+    max-width: 600px;
+    border: 1px solid #e2e8f0;
+    margin-top: 20px;
+}
+
+.detalle-header {
+    border-bottom: 2px solid #edf2f7;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+}
+
+.detalle-numero {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #a0aec0;
+}
+
+.detalle-nombre {
+    margin: 4px 0 8px 0;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: #1a202c;
+}
+
+.detalle-tipos {
+    display: flex;
+    gap: 8px;
+}
+
+.detalle-cuerpo {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+@media (max-width: 600px) {
+    .detalle-cuerpo {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.detalle-seccion-imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.detalle-imagen {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.detalle-descripcion {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #4a5568;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.detalle-info {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.detalle-medidas {
+    display: flex;
+    gap: 16px;
+    background-color: #f7fafc;
+    padding: 12px;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.medida-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.medida-label {
+    font-size: 0.8rem;
+    color: #718096;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.medida-valor {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #2d3748;
+}
+
+.detalle-seccion h4 {
+    margin: 0 0 8px 0;
+    font-size: 0.95rem;
+    color: #4a5568;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.lista-habilidades {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.habilidad-item {
+    background-color: #edf2f7;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    color: #2d3748;
+    font-weight: 500;
+}
+
+.stats-contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.stat-fila {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    gap: 8px;
+    }
+
+.stat-nombre {
+    width: 70px;
+    color: #718096;
+    font-weight: 600;
+}
+
+.stat-valor {
+    width: 30px;
+    text-align: right;
+    font-weight: bold;
+    color: #2d3748;
+}
+
+.stat-barra-fondo {
+    flex: 1;
+    background-color: #e2e8f0;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.stat-barra-relleno {
+    background-color: #48bb78;
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}

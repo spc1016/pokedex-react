@@ -5,7 +5,7 @@ export default function Footer(p) {
         <>
             <footer>
                 <label>
-                    Pokedex en React 2026
+                    Pokedex React 2026
                 </label>
             </footer>
         </>

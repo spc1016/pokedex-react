@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Mitad inferior blanca -->
+  <circle cx="32" cy="32" r="28" fill="#F8FAFC" />
+  <!-- Mitad superior roja -->
+  <path d="M4 32C4 16.536 16.536 4 32 4C47.464 4 60 16.536 60 32H4Z" fill="#EF4444" />
+  <!-- Brillo superior -->
+  <path d="M14 18C18 12 24.5 9 32 9" stroke="#FCA5A5" stroke-width="3" stroke-linecap="round" />
+  <!-- Línea central y borde exterior -->
+  <circle cx="32" cy="32" r="28" stroke="#1E293B" stroke-width="4" />
+  <line x1="4" y1="32" x2="60" y2="32" stroke="#1E293B" stroke-width="4" />
+  <!-- Botón central -->
+  <circle cx="32" cy="32" r="9" fill="#F8FAFC" stroke="#1E293B" stroke-width="4" />
+  <circle cx="32" cy="32" r="4" fill="#CBD5E1" />
+</svg>

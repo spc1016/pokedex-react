@@ -1,0 +1,96 @@
+.movimiento-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 18px;
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 280px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.movimiento-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.movimiento-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movimiento-nombre {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #1a202c;
+    text-transform: capitalize;
+}
+
+.movimiento-categoria {
+    display: flex;
+}
+
+.badge-categoria {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #e2e8f0;
+    color: #4a5568;
+}
+
+/* Colores para las categorías clásicas de Pokémon */
+.categoria-físico,
+.categoria-fisico {
+    background-color: #e53e3e;
+    color: white;
+}
+
+.categoria-especial {
+    background-color: #3182ce;
+    color: white;
+}
+
+.categoria-estado {
+    background-color: #718096;
+    color: white;
+}
+
+.movimiento-stats {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7fafc;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #edf2f7;
+}
+
+.stat-caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-caja-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #718096;
+    font-weight: bold;
+}
+
+.stat-caja-valor {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2d3748;
+}
+
+.movimiento-descripcion {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #4a5568;
+    line-height: 1.4;
+}
